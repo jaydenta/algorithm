@@ -28,3 +28,9 @@ def sum_element_squares(l):
 	for i in l:
 		x = x + ((i)**2)
 	return x
+
+def factorial(l):
+	x = 1
+	for i in l:
+		x  = x * i
+	return x

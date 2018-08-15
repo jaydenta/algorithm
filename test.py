@@ -8,3 +8,11 @@ def sum_element_squares(l):
 
 
 print(sum_element_squares([1,2,3]))
+
+def test_factorial(l):
+	x = 1
+	for i in l:
+		x = x * i
+	return x
+
+print(test_factorial([1,2,3]))
