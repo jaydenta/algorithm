@@ -23,3 +23,8 @@ def compare_add():
 	end = time.time()
 	print('builtin_add takes {}'.format(end - start) + ' seconds to finish')
 
+def sum_element_squares(l):
+	x = 0
+	for i in l:
+		x = x + ((i)**2)
+	return x
