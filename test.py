@@ -1,18 +1,17 @@
 import pytest
 from operate_file import *
-def sum_element_squares(l):
-	x = 0
-	for i in l:
-		x = x + ((i)**2)
-	return x
 
+def test_sum_elements_squares():
+	actual = sum_element_squares([1,2,3])
+	expect = 14
+	assert actual == expect
 
-print(sum_element_squares([1,2,3]))
+def test_factorial():
+	actual = factorial([1,2,3])
+	expect = 6
+	assert actual == expect
 
-def test_factorial(l):
-	x = 1
-	for i in l:
-		x = x * i
-	return x
-
-print(test_factorial([1,2,3]))
+def test_find_letters():
+	actual = find_letters(['a',1,'b',2,'c',3])
+	expect = 3
+	assert actual == expect

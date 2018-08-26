@@ -34,3 +34,14 @@ def factorial(l):
 	for i in l:
 		x  = x * i
 	return x
+
+def find_letters(l):
+	x = 0
+	for i in l:
+		if type(i) == str:
+			x = x + 1
+			print(i)
+	return x
+	
+
+find_letters(['a',1,'b',2,'c',3])
