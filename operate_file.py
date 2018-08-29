@@ -43,5 +43,3 @@ def find_letters(l):
 			print(i)
 	return x
 	
-
-find_letters(['a',1,'b',2,'c',3])
